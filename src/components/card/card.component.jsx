@@ -6,5 +6,6 @@ export const Card = ({props, handler}) => (
     <img alt='monster' src={`https://robohash.org/${props.monster.id}?set=set&180x180`} />
     <h2>{props.monster.name}</h2>
     <p>{props.monster.email}</p>
+    <span>the G</span>
   </div>
 )
